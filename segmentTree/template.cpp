@@ -58,6 +58,10 @@ class SegmentTree
             update(2 * node + 2, mid + 1, end, i, val);
         tree[node] = min(tree[2 * node + 1], tree[2 * node + 2]);
     }
+
+    // range update 
+    //lazy propogation of segment trees
+    
 };
 
 int main()
